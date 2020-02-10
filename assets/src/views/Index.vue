@@ -51,9 +51,9 @@ import ChatRoom from "@/components/ChatRoom.vue";
 export default class App extends Vue {
   roomName: string = "";
   roomNameEntered: string = "";
-  listRoomEntered: Object = {};
+  listRoomEntered: { [key: string]: 1 } = {};
 
-  enterRoom(name): void {
+  enterRoom(name: string): void {
     this.roomNameEntered = "";
     this.roomName = "";
     setTimeout(() => {

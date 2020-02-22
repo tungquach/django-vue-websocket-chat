@@ -1,4 +1,4 @@
-name: Python package
+name: Python + Node
 
 on: [push]
 
@@ -36,5 +36,5 @@ jobs:
       with:
         node-version: ${{ matrix.node }}
     - run: npm install
-    - run: test:unit
+    - run: npm run test:unit
     

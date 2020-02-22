@@ -1,17 +1,14 @@
 <template>
   <div>
     <div class="top"><span><span class="name">#{{ roomName }}</span></span></div>
-    <div
-      class="chat active-chat"
-      data-chat="person1"
-    >
+    <div class="chat active-chat">
       <div class="conversation-start">
         <span>Today, 6:48 AM</span>
       </div>
       <div
         v-for="(message, index) in messages"
         :key="index"
-        class="bubble you"
+        class="bubble text"
       >
         {{ message }}
       </div>

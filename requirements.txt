@@ -1,2 +1,5 @@
-Django>=2.0,<3.0
+Django>=3.0.3
 channels==2.4.0
+pytest-asyncio==0.10.0
+pytest-django==3.8.0
+pytest==5.3.5

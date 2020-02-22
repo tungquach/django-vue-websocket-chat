@@ -279,7 +279,7 @@ body {
         transform: rotate(29deg) skew(-35deg);
       }
 
-      &.you {
+      &.text {
         float: left;
         color: #1a1a1a;
         background-color: #eceff1;
@@ -289,20 +289,6 @@ body {
 
         &:before {
           left: -3px;
-          background-color: #eceff1;
-        }
-      }
-
-      &.me {
-        float: right;
-        color: #1a1a1a;
-        background-color: #eceff1;
-        align-self: flex-end;
-        -webkit-animation-name: slideFromRight;
-        animation-name: slideFromRight;
-
-        &:before {
-          right: -3px;
           background-color: #eceff1;
         }
       }
